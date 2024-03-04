@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-south-2"
-  access_key = "AKIAWMEN7TFIDVYEXLGI"
-  secret_key = "eGQJkaABg3zlZK2ER+RWBoHdCF0HZfYVJY2eKxTN"
+  access_key = "your aws account access key"
+  secret_key = "your aws account secret key"
 }
 
 terraform {
