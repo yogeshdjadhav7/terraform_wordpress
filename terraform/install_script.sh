@@ -7,7 +7,7 @@ sudo service docker start
 sudo usermod -a -G docker ec2-user
 
 # Docker login with credentials
-sudo docker login --username "yogeshdjadhav" --password-stdin <<< "yogesh@123"
+sudo docker login --username "dockerhub username" --password-stdin <<< "dockerhub password"
 
 # Install Docker Compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
